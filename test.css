@@ -1,0 +1,139 @@
+*{
+    background-color: rgb(17, 17, 17);
+    font-family: "Sofia", sans-serif;
+    text-decoration: none;
+   margin: 0px;
+   box-sizing: border-box;
+}
+.nav{
+    box-sizing: border-box;
+    position: fixed;
+   top: 0px;
+   left: 0px;
+   display: flex;
+   flex-direction: column;
+  border-right: 2px solid white;
+  height: 1500px;
+}
+.nav a{
+    padding: 10px;
+    margin: 20px;
+     color: orange;
+    font-size: 20px;
+ }
+ .nav a:hover{
+    border: 2px solid white;
+    
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+}
+p{
+    margin-left: 210px;
+    margin-top: 20px;
+    padding: 20px;
+    color: orange;
+   
+    word-spacing: 10px;
+    font-size: 30px;
+}
+.img{
+  
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    
+   margin-left: 150px;
+}
+
+img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+
+
+ div{  
+    padding: 10px;
+}
+
+.bg{
+    display: flex;
+    flex-shrink: 0;
+   
+}
+.icon{
+  margin-left: 10%;
+  
+    font-size: 15px;
+    color: pink;
+    text-align: center;
+ 
+ }
+ .iconimg{
+     width: 5%;
+     
+ }
+ span{
+     color: aliceblue;
+    
+ }
+ footer{
+    
+     border-top: 2px solid white;
+ }
+
+
+  @media all and (max-width:768px) and (min-width:175px) 
+   {
+        .nav{ display: unset; 
+             position: fixed;
+             height:65px;
+             width: 100%;
+             border-right: 0px;
+             border-bottom: 2px solid white;
+             text-align: center;
+            padding-top: 20px;        }
+
+            .nav a {
+               margin: 8px;
+               font-size: 18px;
+               padding: 4px;
+              
+            }
+            .img{
+                margin: 0px;
+               transition: all 0.3s ease;
+                padding: 0px;
+            }
+            img:hover{
+               transform:translate(100px ,100px) scale(2);
+               transform-origin: center center;
+            }
+           
+            
+            p{
+                font-size: 23px;
+                margin-left:0px ;
+                padding: 8px;
+            }
+            div{
+                padding: 3px;
+            }
+           .icon{
+             margin-right: 10%;
+           }
+    }
+
+
+
+
+
+   
+
+
+
+
+
+
+
